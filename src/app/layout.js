@@ -18,7 +18,7 @@ const geistMono = localFont({
 export const metadata = {
   title: "SKILLHILL-Empowering Laborers, Transforming Construction",
   description:
-    "Digital Labour Chowk is an innovative platform that bridges the gap between construction companies and both skilled and unskilled workers.",
+    "Skillhill is an innovative platform that bridges the gap between construction companies and both skilled and unskilled workers.",
 };
 
 export default function RootLayout({ children }) {
