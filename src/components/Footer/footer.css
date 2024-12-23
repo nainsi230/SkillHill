@@ -1,0 +1,26 @@
+/* Footer.css */
+footer {
+    background-color: #343a40; /* Dark background */
+  }
+  
+  footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer .fab {
+    font-size: 1.5rem;
+  }
+  
