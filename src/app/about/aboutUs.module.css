@@ -1,0 +1,92 @@
+.aboutUs {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-top: 30px;
+  }
+  
+  .hero {
+    text-align: center;
+    background-color: #3b5998;
+    color: #fff;
+    padding: 60px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .overview,
+  .missionVision {
+    padding: 60px 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .container h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .container p {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .missionVision .card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .missionVision .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .missionVision .card p {
+    font-size: 1rem;
+  }
+  
+  .cta {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 40px 20px;
+  }
+  
+  .cta h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .cta p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .ctaButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .ctaButton:hover {
+    background-color: #003f8a;
+  }
+  
