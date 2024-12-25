@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useState } from "react";
 import { Container, Row, Col, Form, Button, Card } from "react-bootstrap";
 
@@ -20,12 +21,12 @@ const Login = () => {
   };
 
   return (
-    <Container>
-      <Row className="justify-content-center mt-5">
-        <Col md={6}>
-          <Card>
+    <Container fluid className="d-flex align-items-center justify-content-center min-vh-100">
+      <Row className="w-100 justify-content-center">
+        <Col md={6} lg={4}>
+          <Card className="shadow">
             <Card.Body>
-              <h3 className="text-center mb-4">Login</h3>
+              <h3 className="text-center mb-4">Login !!</h3>
               <Form onSubmit={handleLogin}>
                 <Form.Group controlId="formEmail" className="mb-3">
                   <Form.Label>Email address</Form.Label>
@@ -59,6 +60,14 @@ const Login = () => {
                   Login
                 </Button>
               </Form>
+              <div className="text-center mt-3">
+                <p>
+                  Don&#39;t have an account?{" "}
+                  <Link href="/register" className="text-primary">
+                    Register here
+                  </Link>
+                </p>
+              </div>
             </Card.Body>
           </Card>
         </Col>

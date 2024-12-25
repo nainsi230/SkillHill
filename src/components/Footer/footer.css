@@ -1,26 +1,28 @@
 /* Footer.css */
 footer {
-    background-color: #343a40; /* Dark background */
-  }
-  
-  footer h5 {
-    font-size: 1.25rem;
-    margin-bottom: 15px;
-  }
-  
-  footer p {
-    font-size: 0.9rem;
-  }
-  
-  footer a {
-    text-decoration: none;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
-  
-  footer .fab {
-    font-size: 1.5rem;
-  }
-  
+  background-color: #343a40; /* Dark background */
+  bottom: 0; /* Stick to the bottom of the viewport */
+  width: 100%; /* Ensure it spans the full width */
+  z-index: 10; /* Ensure it stays above other elements if necessary */
+}
+
+footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .fab {
+  font-size: 1.5rem;
+}

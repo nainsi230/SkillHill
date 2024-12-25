@@ -1,0 +1,74 @@
+.workersPage {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding-top: 70px;
+
+  }
+  
+  .cardContainer {
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+  }
+  
+  .ctaSection {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .ctaSection h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .ctaSection p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .ctaSection .btn {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .ctaSection .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-body p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .card-body .btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .card-body .btn:hover {
+    background-color: #218838;
+  }
+  
