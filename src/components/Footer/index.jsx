@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-md-4 mb-3">
             <h5>SkillHill</h5>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-white">About Us</a></li>
+              <li><a href="/about" className="text-white">About Us</a></li>
               <li><a href="#" className="text-white">Contact</a></li>
               <li><a href="#" className="text-white">Privacy Policy</a></li>
               <li><a href="#" className="text-white">Terms & Conditions</a></li>
